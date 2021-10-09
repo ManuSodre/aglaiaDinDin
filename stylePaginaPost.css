@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  color: red;
+}
+
+/* FORMATAÇÃO HEADER */
+header {
+  background-color: #2e948a;
+  width: 100%;
+  height: 117px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div {
+  display: flex;
+}
+
+header img {
+  width: 69px;
+  height: 71px;
+  margin: 20px 11px 26px 82px;
+}
+
+header h1 {
+  color: #ffffff;
+  margin: 33px 0px 20px 0px;
+  font-size: 56px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 22.98px;
+  margin: 0px; /*precisei zerar novamente o margin e o padding, não entendi o porque*/
+  padding: 0px;
+}
+
+nav ul li:last-child {
+  margin: 0px 103px 0px 37px;
+}
+
+nav ul li:first-child {
+  margin-right: 42px;
+}
+
+nav ul a {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.9;
+  color: #fdfdfd;
+}
+
+navul a: hover {
+  opacity: 1;
+}
+
+/* FORMATAÇÃO FOOTER */
+footer {
+  background-color: #2e948a;
+  width: 100%;
+  height: 207px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-outline- {
+  padding: 14px 41px;
+  border-radius: 50px;
+}
+
+/* .btn-outline-*{
+  padding: 8px;
+  background: white;
+} */
