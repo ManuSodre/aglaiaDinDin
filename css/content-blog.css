@@ -1,0 +1,112 @@
+.intro {}
+
+.intro h1 {
+    width: 512px;
+    margin-left: 239px;
+    margin-top: 112px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 54px;
+    color: #009688;
+}
+
+.intro p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #000000;
+    width: 461px;
+    height: 110px;
+    margin-left: 239px;
+    margin-top: 40px;
+}
+
+.intro img {
+    height: 405px;
+}
+
+.intro .banner {
+    margin-top: 48px;
+    margin-left: 74px;
+    margin-bottom: 89px;
+}
+
+.content-post {
+    background-color: #e5e5e5;
+}
+
+.content-post .imagem {
+    width: 518px;
+    height: 259px;
+    background-color: #C4C4C4;
+    margin-top: 109px;
+}
+
+.content-post .texto {
+    width: 518px;
+    margin-top: 19px;
+}
+
+.content-post .texto h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;
+}
+
+.content-post .texto p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#ultimo-texto {
+    margin-bottom: 109px;
+}
+
+
+/* responsividade */
+
+@media only screen and (max-width: 800px) {
+    .intro h1 {
+        width: 270px;
+        margin-left: 20px;
+        font-size: 30px;
+        line-height: normal;
+    }
+    .intro p {
+        font-size: 18px;
+        line-height: normal;
+        width: 270px;
+        height: 100%;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .content-post .imagem {
+        width: 270px;
+        height: 138px;
+        margin-top: 109px;
+    }
+    .content-post .texto {
+        width: 270px;
+        margin-top: 0px;
+    }
+    .intro img {
+        height: 270px;
+    }
+    .intro .banner {
+        margin-top: 112px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+}
