@@ -1,142 +1,112 @@
-.intro {
-    margin-left: 82px;
-    margin-top: 81px;
-}
+.intro {}
 
 .intro h1 {
+    width: 512px;
+    margin-left: 239px;
+    margin-top: 112px;
     font-style: normal;
     font-weight: bold;
-    font-size: 60px;
-    line-height: 69px;
-    text-transform: capitalize;
-    color: #FF4081;
+    font-size: 47px;
+    line-height: 54px;
+    color: #009688;
 }
 
 .intro p {
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 20px;
     line-height: 23px;
-    color: #555555;
+    align-items: center;
+    color: #000000;
+    width: 461px;
+    height: 110px;
+    margin-left: 239px;
+    margin-top: 40px;
 }
 
-.curso .banner {
-    margin-top: 95px;
-    margin-left: 112px;
+.intro img {
+    height: 405px;
 }
 
-.curso .banner img {
-    width: 380px;
+.intro .banner {
+    margin-top: 48px;
+    margin-left: 74px;
+    margin-bottom: 89px;
 }
 
-.curso .titulo {
-    margin-top: 95px;
-    margin-left: 53px;
+.content-post {
+    background-color: #e5e5e5;
 }
 
-.curso h1 {
+.content-post .imagem {
+    width: 518px;
+    height: 259px;
+    background-color: #C4C4C4;
+    margin-top: 109px;
+}
+
+.content-post .texto {
+    width: 518px;
+    margin-top: 19px;
+}
+
+.content-post .texto h1 {
     font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 40px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
     color: #FF4081;
 }
 
-.curso p {
+.content-post .texto p {
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
     color: #000000;
 }
 
-.curso .descricao {
-    margin-top: 37px;
-    margin-bottom: 53px;
-    margin-left: 53px;
-    width: 724px;
-}
-
-.curso .botao {
-    width: 233px;
-    height: 51px;
-    left: 545px;
-    top: 641px;
-    background: #419488;
-    border-radius: 62px;
-    padding-top: 12px;
-    margin-left: 53px;
-}
-
-.curso .botao a {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-#img-ind-financ {
-    margin-bottom: 202px;
-}
-
-.separador {
-    margin-top: 93px;
-    margin-left: 98px;
-    /* margin-right: 98px; */
-    width: 1244px;
-    height: 5px;
+#ultimo-texto {
+    margin-bottom: 109px;
 }
 
 
 /* responsividade */
 
 @media only screen and (max-width: 800px) {
-    .intro {
-        margin-left: 50px;
-        margin-top: 50px;
-    }
     .intro h1 {
-        font-size: 40px;
+        width: 270px;
+        margin-left: 20px;
+        font-size: 30px;
         line-height: normal;
     }
     .intro p {
         font-size: 18px;
         line-height: normal;
+        width: 270px;
+        height: 100%;
+        margin-left: 20px;
+        margin-top: 0px;
     }
-    .curso .banner {
-        margin-top: 95px;
-        margin-left: 10px;
+    .content-post .imagem {
+        width: 270px;
+        height: 138px;
+        margin-top: 109px;
     }
-    .curso .banner img {
-        width: 250px;
+    .content-post .texto {
+        width: 270px;
+        margin-top: 0px;
     }
-    .curso .titulo {
-        margin-top: 20px;
-        margin-left: 10px;
+    .intro img {
+        height: 270px;
     }
-    #img-ind-financ {
-        margin-bottom: 20px;
-    }
-    #btn-fim {
-        margin-bottom: 95px;
-    }
-    .curso .descricao {
-        margin-bottom: 53px;
-        margin-left: 10px;
-        width: 100%;
-    }
-    .curso .botao {
-        margin-left: 0px;
-    }
-    .separador {
-        margin-top: 93px;
-        margin-left: 0px;
-        width: 100%;
-    }
-    .curso .botao {
-        margin-left: 10px;
+    .intro .banner {
+        margin-top: 112px;
+        margin-left: 20px;
+        margin-bottom: 50px;
     }
 }
