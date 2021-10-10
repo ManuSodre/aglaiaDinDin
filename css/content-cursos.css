@@ -1,0 +1,301 @@
+.intro {
+    margin-left: 82px;
+    margin-top: 81px;
+}
+
+.intro h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+}
+
+.intro p {
+    width: 317px;
+    height: 23px;
+    left: 82px;
+    top: 267px;
+    font-size: 20px;
+    line-height: 23px;
+    color background: #555555;
+    ;
+}
+
+.content-apresentacao {
+    margin: 125px 206px 66px 206px;
+    /* margin-right: 206px; */
+}
+
+.content-apresentacao .titulo {
+    width: 488px;
+    height: 216px;
+}
+
+.content-apresentacao .titulo h1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+}
+
+.content-apresentacao .texto h5 {
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+    margin-top: 19px;
+    margin-bottom: 38px;
+}
+
+.content-apresentacao .botao {
+    width: 268px;
+    height: 51px;
+    left: 207px;
+    top: 577px;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+}
+
+.content-apresentacao .botao a {
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 400px;
+    color: #FF4081;
+}
+
+
+/* conteudo cursos */
+
+.content-cursos {
+    background-color: #F7F7F7;
+}
+
+.content-cursos .imagem {
+    margin-top: 109px;
+    margin-bottom: 45px;
+}
+
+.content-cursos .imagem img {
+    height: 270px;
+}
+
+.content-cursos h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.content-cursos .texto .descricao {
+    width: 250px;
+    height: 60px;
+    margin-top: 23px;
+    margin-bottom: 26px;
+}
+
+.content-cursos p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.content-cursos .botao {
+    width: 233px;
+    height: 51px;
+    left: 184px;
+    top: 1391px;
+    background: #FF4081;
+    border-radius: 62px;
+    padding-top: 14px;
+    margin-bottom: 117px;
+}
+
+.content-cursos .botao a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* content falam */
+
+.content-falam {
+    margin: 119px 225px 157px 128px;
+}
+
+.content-falam .titulo h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+}
+
+.content-falam .imagem {
+    margin-top: 76px;
+}
+
+.content-falam .texto {
+    margin-top: 76px;
+}
+
+.content-falam h5 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.content-falam p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+
+/* content posts */
+
+.content-post {
+    background-color: #F7F7F7;
+    padding-bottom: 63px;
+}
+
+.content-post .titulo h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+    padding: 91px 0px 73px 128px;
+}
+
+.content-post .imagem {
+    width: 319px;
+    height: 193px;
+    background-color: #C4C4C4;
+}
+
+.content-post h1 {
+    font-weight: bold;
+    font-size: 27px;
+    line-height: normal;
+    color: #009688;
+}
+
+.content-post .descricao {
+    Width: 319px;
+    Height: 114px;
+    line-height: normal;
+}
+
+.content-post .botao {
+    width: 289px;
+    height: 51px;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    /* padding-top: 10px; */
+}
+
+.content-post .botao a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: normal;
+    color: #FF4081;
+    line-height: 29px;
+}
+
+
+/* responsividade */
+
+@media only screen and (max-width: 800px) {
+    .content-apresentacao {
+        margin: 30px 0px 20px 00px;
+        /* width: 100%; */
+    }
+    .content-apresentacao .titulo h1 {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: normal;
+    }
+    .content-apresentacao .titulo {
+        width: 300px;
+        height: 50%;
+    }
+    .content-apresentacao .texto h5 {
+        font-size: 20px;
+        line-height: normal;
+        margin-top: 10;
+        margin-bottom: 20px;
+    }
+    .content-apresentacao .botao {
+        width: 200px;
+        height: 45px;
+    }
+    .content-apresentacao .botao a {
+        font-size: 22px;
+    }
+    .content-apresentacao .banner {
+        margin: 10px;
+    }
+    .content-apresentacao .banner img {
+        width: 250px;
+    }
+    .content-falam {
+        margin: 0;
+    }
+    .content-falam .texto {
+        margin-top: 10px;
+    }
+    .content-post .botao {
+        width: 200px;
+        height: 45px;
+        padding-top: 5px;
+    }
+    .content-post .botao a {
+        font-size: 20px;
+    }
+    .content-post {
+        padding: 30px 6px 30px 6px;
+    }
+    .content-post .titulo h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 37px;
+        line-height: 43px;
+        color: #009688;
+        padding: 10px;
+    }
+    .content-post .descricao {
+        Width: 250px;
+        Height: 114px;
+        line-height: normal;
+    }
+    .content-post .imagem {
+        width: 250px;
+        height: 193px;
+        background-color: #C4C4C4;
+    }
+    .content-cursos .texto .descricao {
+        width: 250px;
+        height: 60px;
+        margin-top: 23px;
+        margin-bottom: 26px;
+    }
+    .content-cursos .imagem img {
+        height: 250px;
+    }
+}
