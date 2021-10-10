@@ -1,0 +1,142 @@
+.intro {
+    margin-left: 82px;
+    margin-top: 81px;
+}
+
+.intro h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+}
+
+.intro p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+}
+
+.curso .banner {
+    margin-top: 95px;
+    margin-left: 112px;
+}
+
+.curso .banner img {
+    width: 380px;
+}
+
+.curso .titulo {
+    margin-top: 95px;
+    margin-left: 53px;
+}
+
+.curso h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.curso p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.curso .descricao {
+    margin-top: 37px;
+    margin-bottom: 53px;
+    margin-left: 53px;
+    width: 724px;
+}
+
+.curso .botao {
+    width: 233px;
+    height: 51px;
+    left: 545px;
+    top: 641px;
+    background: #419488;
+    border-radius: 62px;
+    padding-top: 12px;
+    margin-left: 53px;
+}
+
+.curso .botao a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#img-ind-financ {
+    margin-bottom: 202px;
+}
+
+.separador {
+    margin-top: 93px;
+    margin-left: 98px;
+    /* margin-right: 98px; */
+    width: 1244px;
+    height: 5px;
+}
+
+
+/* responsividade */
+
+@media only screen and (max-width: 800px) {
+    .intro {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .intro h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+    .intro p {
+        font-size: 18px;
+        line-height: normal;
+    }
+    .curso .banner {
+        margin-top: 95px;
+        margin-left: 10px;
+    }
+    .curso .banner img {
+        width: 250px;
+    }
+    .curso .titulo {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #img-ind-financ {
+        margin-bottom: 20px;
+    }
+    #btn-fim {
+        margin-bottom: 95px;
+    }
+    .curso .descricao {
+        margin-bottom: 53px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .curso .botao {
+        margin-left: 0px;
+    }
+    .separador {
+        margin-top: 93px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .curso .botao {
+        margin-left: 10px;
+    }
+}
