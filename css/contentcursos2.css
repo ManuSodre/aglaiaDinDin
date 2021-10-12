@@ -1,0 +1,232 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.custom-nav {
+    background-color: #419488;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 20px 103px 26px 82px;
+}
+
+.custom-item {
+    text-decoration: none;
+    color: solid #FDFDFD;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Conteúdo */
+
+.intro {
+    margin-left: 82px;
+    margin-top: 81px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+}
+
+h6 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+}
+
+.banner {
+    margin-top: 95px;
+    margin-left: 112px;
+}
+
+.banner img {
+    width: 380px;
+}
+
+#ban3 {
+    padding-bottom: 204px;
+}
+
+.titulo {
+    margin-top: 95px;
+    margin-left: 53px;
+}
+
+.curso h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.descricao {
+    margin-top: 37px;
+    margin-bottom: 53px;
+    margin-left: 53px;
+    width: 724px;
+}
+
+.p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.botao {
+    width: 233px;
+    height: 51px;
+    left: 545px;
+    top: 641px;
+    background: #419488;
+    border-radius: 62px;
+    padding-top: 12px;
+    margin-left: 53px;
+}
+
+.botao a {
+    text-decoration: none;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.separador {
+    margin-top: 93px;
+    margin-left: 98px;
+    width: 1244px;
+    height: 5px;
+}
+
+
+/* Responsividade */
+
+@media only screen and (max-width: 1030px) {
+    .intro {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    h6 {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    .curso {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .banner {
+        margin-top: 95px;
+        margin-left: 10px;
+    }
+
+    .banner img {
+        width: 250px;
+    }
+
+    #ban3 {
+        height: 300px;
+        margin-bottom: 30px;
+    }  
+
+    .titulo {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .descricao {
+        width: 100%;
+        margin-bottom: 53px;
+        margin-left: 10px;
+    }
+
+    .botao {
+        margin-left: 10px;
+    }
+
+    #bot3 {
+        margin-bottom: 95px;
+    }
+ 
+    .separador {
+        margin-top: 93px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+}
+
+
+/* Footer */
+footer {
+    padding-top: 53px;
+    padding-bottom: 53px;
+}
+
+.custom-footer {
+    background-color: #419488;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 50px 137px 42px 128px;
+}
+
+#afooter {
+    margin: 5px;
+    color:#FFFFFF
+}
+
+footer .button-rodape {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    height: 51px;
+    width: 289px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 62px;
+    padding-top: 8px;
+}
+
+ 
+/* Responsividade */
+@media only screen and (max-width: 1030px) {
+    .custom-nav {
+        padding: 20px 45px 20px 15px;
+    }
+
+    footer .button-rodape {
+        font-size: 18px;
+        height: 45px;
+        width: 289px;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 62px;
+        padding-top: 8px;
+    }
+}
