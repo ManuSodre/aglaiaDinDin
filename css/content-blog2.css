@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
 }
 
 /* FORMATAÇÃO MAIN */
@@ -15,13 +16,12 @@
 
 .maisConteudo h1{
   font-weight: 700;
-  font-style: normal;
   font-size: 47px;
   line-height: 54px;
   color: #009688;
   margin-top:122px;
   max-width: 512px;
-  /* max-height: 108px; */
+  height:108px;
   margin-bottom: 0;
 }
 
@@ -30,10 +30,11 @@
   max-height: 110px;
   color: #000000;
   font-weight: 300;
-  font-style: normal;
   font-size: 20px;
-  line-height: 22.98px;
-  margin-top: 40px;  
+  line-height: 23px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;  
 } 
 
 .maisConteudo img{
@@ -64,18 +65,18 @@
   margin-top: 19px;
 }
 
-.conteudo h3 {
+.conteudo a {
   font-weight: 500;
-  font-style: normal;
   font-size: 30px;
+  line-height: 34px;
   color: #FF4081;
   display: flex;
   align-items: center;
-  
+  text-decoration: none;
+  margin-bottom: 19px;
 } 
 
 .conteudo p{
-  font-style: normal;
   font-weight: 300;
   font-size: 17px;
   display: flex;
@@ -127,9 +128,8 @@
   margin-top: 19px;
 }
 
-.conteudo h3 {
+.conteudo a {
   font-weight: 500;
-  font-style: normal;
   font-size: 30px;
   color: #FF4081;
   display: flex;
@@ -139,7 +139,6 @@
 } 
 
 .conteudo p{
-  font-style: normal;
   font-weight: 300;
   font-size: 17px;
   display: flex;
