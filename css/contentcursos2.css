@@ -7,7 +7,7 @@
 
 /* Header */
 
-.custom-nav {
+/* .custom-nav {
     background-color: #419488;
     font-weight: bold;
     font-size: 20px;
@@ -20,7 +20,7 @@
     color: solid #FDFDFD;
     font-weight: 400;
     font-size: 20px;
-}
+} */
 
 /* Conteúdo */
 
@@ -172,7 +172,7 @@ h6 {
 
 
 /* Footer */
-footer {
+/* footer {
     padding-top: 53px;
     padding-bottom: 53px;
 }
@@ -201,7 +201,7 @@ footer .button-rodape {
     box-sizing: border-box;
     border-radius: 62px;
     padding-top: 8px;
-}
+} */
 
  
 /* Responsividade */
@@ -210,7 +210,7 @@ footer .button-rodape {
         padding: 20px 45px 20px 15px;
     }
 
-    footer .button-rodape {
+    /* footer .button-rodape {
         font-size: 18px;
         height: 45px;
         width: 289px;
@@ -218,5 +218,5 @@ footer .button-rodape {
         box-sizing: border-box;
         border-radius: 62px;
         padding-top: 8px;
-    }
+    } */
 }
