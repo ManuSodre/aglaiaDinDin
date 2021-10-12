@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+}
+
+main h1{
+  margin: 111px auto 12px auto;
+  color: #FF4081;
+  max-width: 758px;  
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 57px;
+  display: flex;
+  align-items: center; 
+  height: 46px;
+}
+
+main h5{
+  margin: 0px auto 74px auto;
+  padding: 0;
+  color: #FF4081;
+  max-width: 200px;
+  height: 21px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center; 
+  color: #9D9D9D;;
+}
+
+.retangulo{
+  max-width: 1032px;
+  height: 465px;
+  background: #c4c4c4;
+  margin-bottom: 64px;
+}
+
+.conteudo{
+  max-width: 1032px;
+  color: #000000;
+  margin: auto auto 111px auto;
+}
+
+main p{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0px;
+  font-feature-settings: 'kern' off;
+}
+
+main h2{
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 29.87px;
+  color: #009688;
+}
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 800px) {
+
+ main h1{
+  margin-top: 70px;
+	font-size: 30px;
+	line-height: 40px;
+}	
+
+main h5{
+  margin: 0px auto 30px auto;
+
+}
+
+.retangulo{
+  max-width: 270px;
+  height: 122px;
+  margin-bottom: 30px;
+}
