@@ -5,23 +5,6 @@
     font-style: normal;
 }
 
-/* Header */
-
-/* .custom-nav {
-    background-color: #419488;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
-    padding: 20px 103px 26px 82px;
-}
-
-.custom-item {
-    text-decoration: none;
-    color: solid #FDFDFD;
-    font-weight: 400;
-    font-size: 20px;
-} */
-
 /* Conteúdo */
 
 .intro {
@@ -168,55 +151,4 @@ h6 {
         width: 100%;
     }
     
-}
-
-
-/* Footer */
-/* footer {
-    padding-top: 53px;
-    padding-bottom: 53px;
-}
-
-.custom-footer {
-    background-color: #419488;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
-    padding: 50px 137px 42px 128px;
-}
-
-#afooter {
-    margin: 5px;
-    color:#FFFFFF
-}
-
-footer .button-rodape {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 20px;
-    height: 51px;
-    width: 289px;
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 62px;
-    padding-top: 8px;
-} */
-
- 
-/* Responsividade */
-@media only screen and (max-width: 1030px) {
-    .custom-nav {
-        padding: 20px 45px 20px 15px;
-    }
-
-    /* footer .button-rodape {
-        font-size: 18px;
-        height: 45px;
-        width: 289px;
-        border: 2px solid #FFFFFF;
-        box-sizing: border-box;
-        border-radius: 62px;
-        padding-top: 8px;
-    } */
 }
