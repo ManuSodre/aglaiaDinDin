@@ -2,13 +2,13 @@
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
+    font-style: normal;
 }
 
 /* Header */
 
 .custom-nav {
     background-color: #419488;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
@@ -30,7 +30,6 @@
 }
 
 h1 {
-    font-style: normal;
     font-weight: bold;
     font-size: 60px;
     line-height: 69px;
@@ -39,7 +38,6 @@ h1 {
 }
 
 h6 {
-    font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
@@ -65,7 +63,6 @@ h6 {
 }
 
 .curso h1 {
-    font-style: normal;
     font-weight: bold;
     font-size: 35px;
     line-height: 40px;
@@ -77,10 +74,6 @@ h6 {
     margin-bottom: 53px;
     margin-left: 53px;
     width: 724px;
-}
-
-.p {
-    font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
@@ -89,18 +82,15 @@ h6 {
 .botao {
     width: 233px;
     height: 51px;
-    left: 545px;
-    top: 641px;
     background: #419488;
     border-radius: 62px;
-    padding-top: 12px;
+    padding-top: 13px;
     margin-left: 53px;
 }
 
 .botao a {
     text-decoration: none;
     text-align: center;
-    font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
