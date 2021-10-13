@@ -72,7 +72,7 @@
     width: 250px;
     height: 60px;
     margin-top: 23px;
-    margin-bottom: 26px;
+    margin-bottom: 40px;
 }
 
 .content-cursos p {
@@ -127,6 +127,7 @@
 }
 
 .content-falam h5 {
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -135,8 +136,9 @@
 }
 
 .content-falam p {
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     color: #000000;
@@ -154,6 +156,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 37px;
+
     line-height: 43px;
     color: #009688;
     padding: 91px 0px 73px 128px;
@@ -170,6 +173,7 @@
     font-size: 27px;
     line-height: normal;
     color: #009688;
+    padding-top: 10px;
 }
 
 .content-post .descricao {
@@ -189,6 +193,7 @@
 
 .content-post .botao a {
     text-decoration: none;
+    text-align: center;
     font-size: 25px;
     font-weight: normal;
     color: #FF4081;
@@ -198,9 +203,9 @@
 
 /* responsividade */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1030px) {
     .content-apresentacao {
-        margin: 30px 0px 20px 00px;
+        margin: 30px 0px 20px 0px;
         /* width: 100%; */
     }
     .content-apresentacao .titulo h1 {
@@ -231,16 +236,29 @@
     .content-apresentacao .banner img {
         width: 250px;
     }
+    .content-cursos h1 {
+        font-size: 15px;    
+    }
+    .content-cursos p {
+        font-size: 12px
+    } 
+    .content-cursos .botao {
+        width: 175px;
+    }    
     .content-falam {
         margin: 0;
     }
     .content-falam .texto {
         margin-top: 10px;
     }
+    .content-falam .imagem {
+        margin-top: 30px;
+    }
     .content-post .botao {
         width: 200px;
         height: 45px;
         padding-top: 5px;
+        margin-top: 10px;
     }
     .content-post .botao a {
         font-size: 20px;
@@ -257,22 +275,23 @@
         padding: 10px;
     }
     .content-post .descricao {
-        Width: 250px;
-        Height: 114px;
+        width: 200px;
+        height: 114px;
         line-height: normal;
     }
     .content-post .imagem {
         width: 250px;
-        height: 193px;
+        height: 180px;
         background-color: #C4C4C4;
     }
     .content-cursos .texto .descricao {
-        width: 250px;
-        height: 60px;
+        font-size: 12px;
         margin-top: 23px;
-        margin-bottom: 26px;
+        margin-bottom: 30px;
     }
     .content-cursos .imagem img {
+        width: 200px;
         height: 250px;
+
     }
 }
