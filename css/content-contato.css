@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .container h1{
     
     font-style: normal;
@@ -6,15 +11,27 @@
     line-height: 69px;
     text-transform: capitalize;
     color: #FF4081;   
-    margin-left: 136px;
+    /* margin-left: 136px; */
     margin-right: 68.95%;
 }
+
+.formulario #nomeid{
+    width: 493px;
+    height: 32px;
+    border: 1px solid #686868;
+}
+
+.formulario #emailid{
+    width: 493px;
+    height: 32px;
+    border: 1px solid #686868;  
+}
+
 .formulario .imagem img{
     width: 444px;
 }
 
 .formulario .imagem{
-   
     margin-left: 833px;
     margin-top: 199px;
 }
@@ -32,33 +49,20 @@
     border-radius: 4px;
     width: 50vw;
 }
-.formulario nomeid{
-    position: absolute;
-    left: 0.6%;
-    right: 0%;
-    top: 21.48%;
-    bottom: 70.88%;
-    
+
+.formulario #textarea {
+    width: 493px;
+    height: 193px;
+    line-height: 20px;
     background: #FFFFFF;
     border: 1px solid #686868;
     box-sizing: border-box;
     border-radius: 7px;
 }
 
-.formulario textarea {
-   
-    width: 493px;
-    height: 193px;
-    line-height: 20px;
-    max-width: 400px;
-    background: #FFFFFF;
-    border: 1px solid #686868;
-    box-sizing: border-box;
-    border-radius: 7px;
-}
 input, textarea {
     padding: 10px;
-    margin-left: 139px;
+    /* margin-left: 139px; */
     margin-top: 15px;
     border-radius: 5px;
     border: 1px solid;
@@ -86,6 +90,9 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     text-align: center;
     text-transform: lowercase;
     color: #FFFFFF;
+    width: 108px;
+    height: 32px;
+    padding: 5px;
 }
 
 
