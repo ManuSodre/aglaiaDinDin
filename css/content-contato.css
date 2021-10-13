@@ -1,71 +1,56 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-.container h1{
-    
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 69px;
-    text-transform: capitalize;
-    color: #FF4081;   
-    /* margin-left: 136px; */
-    margin-right: 68.95%;
-}
-
-.formulario #nomeid{
-    width: 493px;
-    height: 32px;
-    border: 1px solid #686868;
-}
-
-.formulario #emailid{
-    width: 493px;
-    height: 32px;
-    border: 1px solid #686868;  
-}
-
-.formulario .imagem img{
-    width: 444px;
-}
-
-.formulario .imagem{
-    margin-left: 833px;
-    margin-top: 199px;
-}
-
-.formulario{
+main{
+    padding-left: 136px;
+    padding-right: 163px;
+    padding-top: 82px;
+    padding-bottom: 89px;
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 15px;
-    max-width: 500px;
+    justify-content: space-between;
+}
+
+#contato h1{
+    padding-bottom: 44px;
+    font-size: 40px;
+    font-family: Ubuntu;
     color: #FF4081;
-    height: 419px;
-    left: 136px;
-    top: 222px;
-    border-radius: 4px;
-    width: 50vw;
+
 }
 
-.formulario #textarea {
-    width: 493px;
-    height: 193px;
-    line-height: 20px;
-    background: #FFFFFF;
-    border: 1px solid #686868;
-    box-sizing: border-box;
+#contato  form div input{
+    width: 496px;
+    height: 32px;
     border-radius: 7px;
+    margin-bottom: 15px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #686868;
+    color: #58555d;
+    padding-left: 21px;
 }
 
-input, textarea {
-    padding: 10px;
-    /* margin-left: 139px; */
+#contato  form div textarea{
+    width: 496px;
+    height: 193px;
+    border-radius: 7px;
+    padding-left: 21px;
+    padding-top: 10px;
+}
+
+#contato  form .botao{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 800;
+    width: 108px;
+    height: 32px;
+    padding-top: 2px;
+    padding-bottom: 5px;
     margin-top: 15px;
-    border-radius: 5px;
-    border: 1px solid;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    background: #FF4081;
+    border-radius: 50px;
 }
 
 input:hover, textarea:hover, input:focus, textarea:focus {
@@ -75,41 +60,33 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     font-weight: normal;
 }
 
-.enviar{
-    font-family:'Ubuntu', sans-serif;
-    font-style: normal;
-    left: 139px;
-    right: 1193px;
-    top: 613px;
-    bottom: 304px;
-    background: #FF4081;
-    border-radius: 50px;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    text-transform: lowercase;
-    color: #FFFFFF;
-    width: 108px;
-    height: 32px;
-    padding: 5px;
+main div img{
+    max-width: 444px;
 }
 
-
-
-
-/*RESPONSIVIDADE*/ 
-
-@media only screen and (max-width: 800px) {
-
-    .contato h1{
-      margin-top:75px;
-      margin-left: 30px; 
+@media only screen and (max-width: 480px){
+    main{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: center;
     }
-    .imagem img{
-        max-width: 300px;
-        max-height: 405px;
-        margin-top: 48px;
-        margin-bottom: 89px;
-       }
+
+    #contato  form div input{
+        width: 300px;
+    
+    }
+    
+    #contato form div textarea{
+        width: 300px;
+
+    }
+
+    main div img{
+        max-width: 280px;
+        max-height: 280px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
 }
