@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+font-size: 1.6rem;
+}
+
+/* header */
+
+.custom-nav {
+  background-color: #419488;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 20px 103px 26px 82px;
+}
+
+.custom-item {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
+/* footer */
+
+footer {
+  padding-top: 53px;
+  padding-bottom: 53px;
+}
+
+.custom-footer {
+  background-color: #419488;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 50px 137px 42px 128px;
+}
+
+footer .button-rodape {
+  color: #fdfdfd;
+  text-decoration: none;
+  font-size: 20px;
+  height: 51px;
+  width: 289px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 62px;
+  padding-top: 8px;
+}
+
+footer ul li {
+  margin: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .custom-nav {
+      padding: 20px 10px 20px 10px;
+  }
+  footer .button-rodape {
+      font-size: 18px;
+      height: 45px;
+      width: 200px;
+      border: 2px solid #FFFFFF;
+      box-sizing: border-box;
+      border-radius: 62px;
+      padding-top: 8px;
+  }
+}
+  /* FORMATAÇÃO MAIN */
+  
+
+section.investimento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+section.investimento {
+    margin: 80px 0;
+  }
+  
+section.investimento {
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+    margin-top: 93px;
+  }
+  
+section.investimento h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5.5rem;
+    line-height: 6.3rem;
+    
+    color: #FF4081;
+
+}
+
+  section.investimento p {
+    color: rgb(0, 0, 0);
+    line-height: 2.2rem;
+    margin: 10px 0px 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.0rem;
+  }
+
+.investimento .ilustracao img{
+    margin-bottom: 81px;
+    margin-left: 88px;
+    width: 380px;
+    height: 381px;
+  }
+
+section .aulas {
+  width: 90%;
+  max-width: 980px;
+  
+  margin: auto;
+}
+
+.aulas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: flex-start;
+  }
+
+.aulas {
+    background-size: 100%;
+    background-color: #F6F6F6;
+    padding-bottom: 170px;
+}
+
+.aulas .row{
+    padding-top: 75px;
+  }
+
+.aulas .video img{
+  max-width: 462px;
+  height: 261px;
+  cursor: pointer;
+}
+
+.descricao {
+  margin-left: 76px;
+}
+
+.aulas h3{
+    width: 512px;
+    height: 40px;
+    left: 751px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    
+    color: #FF4081;
+}
+
+.aulas p{
+    width: 501px;
+    height: 195px;
+    left: 751px;
+    top: 800px;
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.separador {
+  margin-top: 73px;
+  width: 1024px;
+  height: 5px;
+  align-items: center;
+}
+
+/* RESPONSIVIDADE */
+
+
+@media only screen and (max-width: 1250px) {
+
+  html {
+    font-size: 50%;
+  }
+  .investimento h1 {
+    margin-top: 0px;
+  }
+
+  .investimento .ilustracao img{
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 280px;
+    height: 281px;
+  }
+
+  .aulas{
+    background-size: 100%;
+    background-color: #F6F6F6;
+    padding-bottom: 170px;
+  }
+  .aulas .descricao{
+    max-width: 300px;
+    margin-top: 19px;
+  }
+  
+  .aulas h3 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3.0rem;
+    color: #FF4081;
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+  
+     
+  } 
+
+  .aulas p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.7rem;
+    display: flex;
+    line-height: 2.0rem; 
+    max-width: 30rem;
+    color: #000000;
+    
+  }
+  .separador {
+    width: 80%;
+    margin-top: 40px;
+}
+  .aulas .video img{
+    width:261px;
+    height: 180px;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 40px;
+  }
+
+@media only screen and (max-width: 400px){
+
+  .aulas .video img{
+    width:261px;
+    height: 180px;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 20px;
+
+  }
+}
+}
