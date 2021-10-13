@@ -89,23 +89,28 @@
 
  @media only screen and (max-width: 800px) {
 
+.maisConteudo{
+  padding: 0;
+}
+
 .maisConteudo h1{
   margin-top:75px;
-  margin-left: 30px; 
+  margin-left: 30px;
+  max-width: 300px; 
 } 
+
 .maisConteudo p{
-  max-width: 300px;
+  max-width: 270px;
   margin-left: 30px;
   margin-top: 20px;
   
-    }  
-}
+}  
+
 
 .maisConteudo img{
  max-width: 300px;
  max-height: 405px;
- margin-top: 48px;
- margin-bottom: 89px;
+ margin: 48px auto 89px 10px;
 }  
 
 .conteudo{
